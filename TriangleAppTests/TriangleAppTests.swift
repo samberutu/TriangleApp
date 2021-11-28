@@ -22,7 +22,7 @@ class TriangleAppTests: XCTestCase {
     }
     
     func testDetectRandomTriangle() {
-        XCTAssertEqual(try detectTriangle(3, 5, 7), "Segitiga Sembarang")
+        XCTAssertEqual(try detectTriangle(3, 4, 5), "Segitiga Sembarang")
     }
     func testDetectPythagorasTriangle() {
       XCTAssertEqual(try detectTriangle(6, 8, 10), "Segitiga Siku-Siku")
